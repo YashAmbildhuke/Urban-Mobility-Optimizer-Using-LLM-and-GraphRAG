@@ -36,8 +36,6 @@ to deliver data-driven, explainable, and context-aware mobility recommendations.
 
 \- Transport availability detection using spatial graph queries
 
-\- Fully agentic AI pipeline (Planner → Agents → Orchestrator)
-
 \- GraphRAG-based explanations grounded in city graph context
 
 \- Interactive Streamlit dashboard with charts and maps
@@ -85,6 +83,7 @@ User → Streamlit UI → Orchestrator Agent →
 \- Open-Meteo API
 
 \- Matplotlib
+
 
 
 
