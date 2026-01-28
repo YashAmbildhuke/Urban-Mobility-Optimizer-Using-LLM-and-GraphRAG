@@ -13,7 +13,7 @@ class GraphLoader:
     def load_locations_and_roads(self, nodes, road_segments):
         print("Loading road locations and road segments...")
 
-        # 1️⃣ Location nodes
+        # Location nodes
         for node_id, node in nodes.items():
             self.conn.execute(
                 """
@@ -28,7 +28,7 @@ class GraphLoader:
                 }
             )
 
-        # 2️⃣ CONNECTS relationships
+        # CONNECTS relationships
         for road in road_segments:
             self.conn.execute(
                 """
